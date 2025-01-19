@@ -3,6 +3,7 @@
 ## 🥞 Stack
 
 - [Nuxt](https://nuxt.com/docs/getting-started/introduction). This sits on top of Vuejs so you get a lot of the same nice coding experience, but a bunch of under the hood benefits (the nuxt website can tell you about these).
+- [Nuxt ESLint](https://eslint.nuxt.com/packages/module). This will keep your code using a standard style as much as possible.
 
 ## How to use this repo
 
