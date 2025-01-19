@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Example styling, feel free to delete */
+/* For more about layers, see https://tailwindcss.com/docs/functions-and-directives */
+
+@layer base {
+
+  a {
+    @apply underline text-blue-600 md:text-purple-600;
+  }
+
+}

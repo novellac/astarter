@@ -5,6 +5,7 @@
 - [Nuxt](https://nuxt.com/docs/getting-started/introduction). This sits on top of Vuejs so you get a lot of the same nice coding experience, but a bunch of under the hood benefits (the nuxt website can tell you about these).
 - [Nuxt ESLint](https://eslint.nuxt.com/packages/module). This will keep your code using a standard style as much as possible.
 - [Nuxt Image](https://image.nuxt.com/). This will help optimize images, which is good for artists and other visually-driven sites.
+- [Nuxt Tailwind](https://nuxt.com/modules/tailwindcss). This gives a giant set of utility classes. It's good for spinning up new things, but has drawbacks for bigger projects. Use thoughtfully and don't at me lol.
 
 ## How to use this repo
 
