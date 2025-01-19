@@ -6,6 +6,7 @@
 - [Nuxt ESLint](https://eslint.nuxt.com/packages/module). This will keep your code using a standard style as much as possible.
 - [Nuxt Image](https://image.nuxt.com/). This will help optimize images, which is good for artists and other visually-driven sites.
 - [Nuxt Tailwind](https://nuxt.com/modules/tailwindcss). This gives a giant set of utility classes. It's good for spinning up new things, but has drawbacks for bigger projects. Use thoughtfully and don't at me lol.
+- [Nuxt Fonts](https://fonts.nuxt.com/). Fonts with less fuss, hopefully. Basically it downloads fonts for you and stores them in a predetermined place so you are not making a bunch of calls.
 
 ## How to use this repo
 
