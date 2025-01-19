@@ -19,6 +19,7 @@
 - Look into [Nuxt Color Mode](https://color-mode.nuxtjs.org/)
 - Add [Nuxt Test Utils](https://nuxt.com/modules/test-utils) as needed (and choose between jsdom and happy-dom ouch lol)
 - Add Nuxt Icons maybe? This seems a bit extra though, not all the sites I work on need icons.
+- Look into Nuxt Layers for getting things like shared base components from an external repo.
 
 ## Tips, tricks, and gotchas
 
