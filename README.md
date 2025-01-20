@@ -23,4 +23,5 @@
 
 ## Tips, tricks, and gotchas
 
-For all the scripts you can use to run nifty stuff see the `package.json` file scripts section. Usually you'll just run `npm i` and `npm run dev` to get started developing locally. The `npm run preview` command can be helpful if you're trying to figure out why something looks different when you deploy it versus when you're developing locally.
+- For all the scripts you can use to run nifty stuff see the `package.json` file scripts section. Usually you'll just run `npm i` and `npm run dev` to get started developing locally. The `npm run preview` command can be helpful if you're trying to figure out why something looks different when you deploy it versus when you're developing locally.
+- When first running the dev command you may get some errors. These shouldn't happen again after first load. ([Github issue](https://github.com/nuxt/nuxt/issues/30461))
