@@ -9,6 +9,7 @@
 - [Nuxt Image](https://image.nuxt.com/). This will help optimize images, which is good for artists and other visually-driven sites.
 - [Nuxt Tailwind](https://nuxt.com/modules/tailwindcss). This gives a giant set of utility classes. It's good for spinning up new things, but has drawbacks for bigger projects. Use thoughtfully and don't at me lol.
 - [Nuxt Fonts](https://fonts.nuxt.com/). Fonts with less fuss, hopefully. Basically it downloads fonts for you and stores them in a predetermined place so you are not making a bunch of calls.
+- [Tina CMS](https://tina.io/). This is a CMS that is git-based, so it will create markdown files we can use for our site's content.
 
 ## How to use this repo
 
