@@ -1,5 +1,7 @@
 # Nuxt Tina Tailwind Starter Template
 
+[![Hippocratic License HL3-FULL](https://img.shields.io/static/v1?label=Hippocratic%20License&message=HL3-FULL&labelColor=5e2751&color=bc8c3d)](https://firstdonoharm.dev/version/3/0/full.html)
+
 ## 🥞 Stack
 
 - [Nuxt](https://nuxt.com/docs/getting-started/introduction). This sits on top of Vuejs so you get a lot of the same nice coding experience, but a bunch of under the hood benefits (the nuxt website can tell you about these).
