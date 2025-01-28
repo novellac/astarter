@@ -16,6 +16,12 @@
 1. Clone copy etc the repo
 1. Change out the fonts for your fonts in the `tailwind.config.js` file and wherever  your reference the font directly.
 
+### Set up Tina.io
+
+1. Go to [tina.io](https://tina.io), log in, and create a new project.
+1. Copy the `.env.example` file to create your own `.env` file.
+1. Copy the Tina tokens into the `.env` file (which tokens correspond to which env vars can be found in the Tina dashboard or the [Tina production docs](https://tina.io/docs/tina-cloud/overview))
+
 ## Roadmap/TODOs
 
 - Create Tina wysiwyg snippets that add TW classes? ([resource](https://tailwindcss.nuxtjs.org/examples/content))
@@ -28,3 +34,4 @@
 
 - For all the scripts you can use to run nifty stuff see the `package.json` file scripts section. Usually you'll just run `npm i` and `npm run dev` to get started developing locally. The `npm run preview` command can be helpful if you're trying to figure out why something looks different when you deploy it versus when you're developing locally.
 - When first running the dev command you may get some errors. These shouldn't happen again after first load. ([Github issue](https://github.com/nuxt/nuxt/issues/30461))
+- You'll see many of the Tina partials have a Field and Block version. This is so we can take in the same kind of info either in a set field in the content type, or as part of a drag and drop list of sections the user can control.

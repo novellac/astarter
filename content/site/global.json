@@ -1,0 +1,19 @@
+{
+  "siteName": "Aster, A Starter Repo",
+  "footerText": "Hope you enjoyed Aster, a starter repo!\n",
+  "siteCopyright": "Some rights reserved. See the repo's license document for restrictions. Copyright",
+  "navItems": [
+    {
+      "linkText": "Home",
+      "href": "/"
+    },
+    {
+      "linkText": "About",
+      "href": "/about"
+    },
+    {
+      "linkText": "How to use",
+      "href": "/how"
+    }
+  ]
+}
