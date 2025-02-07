@@ -10,6 +10,7 @@
 - [Nuxt Tailwind](https://nuxt.com/modules/tailwindcss). This gives a giant set of utility classes. It's good for spinning up new things, but has drawbacks for bigger projects. Use thoughtfully and don't at me lol.
 - [Nuxt Fonts](https://fonts.nuxt.com/). Fonts with less fuss, hopefully. Basically it downloads fonts for you and stores them in a predetermined place so you are not making a bunch of calls.
 - [Tina CMS](https://tina.io/). This is a CMS that is git-based, so it will create markdown files we can use for our site's content.
+- [Histoire](https://histoire.dev/). This is an alternative to Storybook, but more closely tied to the Vue ecosystem.
 
 ## How to use this repo
 
@@ -29,6 +30,9 @@
 - Add [Nuxt Test Utils](https://nuxt.com/modules/test-utils) as needed (and choose between jsdom and happy-dom ouch lol)
 - Add Nuxt Icons maybe? This seems a bit extra though, not all the sites I work on need icons.
 - Look into Nuxt Layers for getting things like shared base components from an external repo.
+- Site vars to be added to Tina:
+-- BaseNavMenu - Home link
+-- BaseNavMenu - Mobile close button aria label
 
 ## Tips, tricks, and gotchas
 
