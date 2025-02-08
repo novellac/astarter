@@ -11,6 +11,7 @@
 - [Nuxt Fonts](https://fonts.nuxt.com/). Fonts with less fuss, hopefully. Basically it downloads fonts for you and stores them in a predetermined place so you are not making a bunch of calls.
 - [Tina CMS](https://tina.io/). This is a CMS that is git-based, so it will create markdown files we can use for our site's content.
 - [Histoire](https://histoire.dev/). This is an alternative to Storybook, but more closely tied to the Vue ecosystem.
+- [NuxtContent](https://content.nuxt.com/). This gives a bunch of helpers for automagically rendering from static folders and files.
 
 ## How to use this repo
 

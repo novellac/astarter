@@ -15,6 +15,7 @@
     "story:preview": "histoire preview"
   },
   "dependencies": {
+    "@nuxt/content": "^3.1.0",
     "@nuxt/eslint": "^0.7.5",
     "@nuxt/fonts": "^0.10.3",
     "@nuxt/image": "^1.9.0",
