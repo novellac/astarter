@@ -49,6 +49,7 @@
 
   /* Borders */
   --border-size-base: 3px;
+  --border-size-md: 8px;
 
   /* Custom breakpoints */
   --breakpoint-tablet: 768px;
@@ -169,4 +170,27 @@ footer {
 
 .footer-icon {
   color: var(--color-primary);
+}
+
+/* Borders */
+.divider {
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .divider {
+    max-width: 500px;
+  }
+}
+
+.solid {
+  border-color: var(--color-primary);
+  border-width: var(--border-size-base);
+}
+
+.dotted {
+  border-color: var(--color-primary);
+  border-style: dotted;
+  border-bottom-width: var(--border-size-md);
+  border-top-width: 0px;
 }

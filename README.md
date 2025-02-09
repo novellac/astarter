@@ -31,6 +31,8 @@
 - Add [Nuxt Test Utils](https://nuxt.com/modules/test-utils) as needed (and choose between jsdom and happy-dom ouch lol)
 - Add Nuxt Icons maybe? This seems a bit extra though, not all the sites I work on need icons.
 - Look into Nuxt Layers for getting things like shared base components from an external repo.
+- Check if we have headingLevel in a Tina field, because it is referenced a lot in Vue SFCs!
+- Make IconCards more flexible, to take any icon instead of just the one we've hardcoded.
 - Site vars to be added to Tina:
 -- BaseNavMenu - Home link
 -- BaseNavMenu - Mobile close button aria label
