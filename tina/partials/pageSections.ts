@@ -7,6 +7,7 @@ import { dividerBlock } from './divider'
 import { horizontalCardBlock } from './horizontalCard'
 import { verticalCardBlock } from './verticalCard'
 import { twoUpVerticalCardsBlock } from './twoUpVerticalCards'
+import { iconCardsBlock } from './iconCards'
 import { imageGalleryBlock } from './imageGallery'
 import { fullWidthImageBlock } from './fullWidthImage'
 
@@ -23,6 +24,7 @@ export const pageSections: TinaField = {
     horizontalCardBlock,
     verticalCardBlock,
     twoUpVerticalCardsBlock,
+    iconCardsBlock,
     imageGalleryBlock,
     fullWidthImageBlock
   ]

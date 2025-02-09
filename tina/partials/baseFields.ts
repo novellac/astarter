@@ -58,6 +58,13 @@ export const wysiwyg: TinaField = {
   type: 'rich-text',
 };
 
+export const iconCardText: TinaField = {
+  label: 'Icon card text',
+  name: 'text',
+  type: 'string',
+  list: true,
+};
+
 export const caption: TinaField = {
   label: 'Caption',
   name: 'caption',
