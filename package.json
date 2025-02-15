@@ -9,10 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "story:dev": "histoire dev",
-    "story:build": "histoire build",
-    "story:preview": "histoire preview"
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@nuxt/content": "^3.1.0",
@@ -27,12 +24,9 @@
     "vue-router": "latest"
   },
   "devDependencies": {
-    "@histoire/plugin-nuxt": "^0.17.17",
-    "@histoire/plugin-vue": "^0.17.17",
     "@tinacms/cli": "^1.8.1",
     "@types/markdown-it": "^14.1.2",
     "@types/node": "^22.10.8",
-    "histoire": "^0.17.17",
     "markdown-it": "^14.1.0",
     "typescript": "^5.7.3"
   }
