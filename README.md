@@ -17,9 +17,18 @@
 
 ### Set up Tina.io
 
+1. Navigate to [AStarter](https://github.com/novellac/astarter) repo and click "Use template."
+1. Git clone into the editor/IDE of your choice.
+1. Replace the `name` field in `package.json` with your chosen name.
+1. Run `npm i` to install dependencies.
+1. Push up the changes to your new repo. (You may have to set your git name/email first.)
 1. Go to [tina.io](https://tina.io), log in, and create a new project.
 1. Copy the `.env.example` file to create your own `.env` file.
 1. Copy the Tina tokens into the `.env` file (which tokens correspond to which env vars can be found in the Tina dashboard or the [Tina production docs](https://tina.io/docs/tina-cloud/overview))
+1. Go to the deploy service of your choice (I suggest Vercel) and import the repo
+1. On the deploy platform, add the env variables `NEXT_PUBLIC_TINA_CLIENT_ID`, `TINA_TOKEN`, and `TINA_INDEXER_TOKEN` you got from the Tina dashboard.
+1. Once your site has been built and deployed, copy the URL (usually something like `https://my-cool-site.vercel.app`) and add it in the Configuration tab of the Tina dashboard. This will ensure you can go to `/admin` on your site and be able to sign into Tina.
+1. To be able to use media (like pictures, videos, and files you upload), go to the Tina dashboard's Media tab. Follow the prompts (you should not need to change any of the values) to sync media.
 
 ## Roadmap/TODOs
 
