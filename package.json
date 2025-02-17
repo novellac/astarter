@@ -3,10 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "nuxt": "nuxt dev",
-    "buildnuxt": "nuxt build",
-    "dev": "tinacms dev -c \"nuxt dev\"",
     "build": "tinacms build && nuxt build",
+    "dev": "tinacms dev -c \"nuxt dev\"",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
@@ -19,7 +17,7 @@
     "nuxt": "^3.15.4",
     "tinacms": "^2.6.4",
     "vue": "latest",
-    "vue-router": "^4.5.0"
+    "vue-router": "latest"
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.0.1",
