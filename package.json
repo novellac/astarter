@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "nuxt": "nuxt dev",
+    "buildnuxt": "nuxt build",
     "dev": "tinacms dev -c \"nuxt dev\"",
     "build": "tinacms build && nuxt build",
     "generate": "nuxt generate",
