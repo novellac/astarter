@@ -1,9 +1,30 @@
+<!-- eslint-disable vue/no-v-html -->
 <template>
-  <div class="bg-pink-50">
-    <NuxtRouteAnnouncer />
+  <div class="body-wrapper">
+    <header>
+      <BaseNavMenu :nav-items="data?.meta.navItems" :site-name="data?.meta.siteName" />
+    </header>
 
-    <h1 class="font-agu text-6xl">Welcome to Aster, a starter repo</h1>
-    <NuxtImg src="/Aster_Tataricus.jpeg" alt="Close-up of a light purple flower with many petals and a brownish yellow middle" />
-    <p>Image by <a href="https://commons.wikimedia.org/wiki/User:Pascalou_petit">Pascalou petit</a>, courtesy of <a href="https://commons.wikimedia.org/wiki/File:Aster_Tataricus.JPG">Wikimedia</a>.</p>
+    <NuxtRouteAnnouncer />
+    <NuxtPage :site-name="data?.meta.siteName" />
+
+    <footer>
+      <div class="footer-text" v-html="md.render(data?.meta.footerText)"/>
+      <p>© {{ new Date().getFullYear() }} {{ data?.meta.siteCopyright }}</p>
+    </footer>
   </div>
 </template>
+
+<script setup lang="ts">
+import markdownit from 'markdown-it'
+const md = markdownit()
+
+const { data } = await useAsyncData('global', () => {
+  return queryCollection('site')
+    .first()
+})
+</script>
+
+<style>
+@import url('~/styles/css/main.css');
+</style>

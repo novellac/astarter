@@ -1,8 +1,6 @@
 <template>
   <div class="icon-cards-block">
-    <h2 v-if="block.heading">
-      {{ block.heading }}
-    </h2>
+    <BaseHeading v-if="block.heading" :heading="block.heading" />
 
     <ul v-if="block.text" class="cards-list">
       <li v-for="(item, index) in block.text" :key="index">
@@ -14,7 +12,7 @@
   </div>
 </template>
 
-<script lang="ts" setup>
+<script setup lang="ts">
 defineProps({
   block: {
     type: Object,
@@ -50,8 +48,10 @@ defineProps({
   }
   .cards-list {
     flex-direction: row;
-    flex-basis: 33%;
     gap: var(--gap-lg);
+  }
+  .cards-list li {
+    flex-basis: 33%;
   }
 }
 </style>

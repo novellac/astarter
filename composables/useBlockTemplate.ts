@@ -30,6 +30,6 @@ export const useBlockTemplate = (template: string) => {
       return ImageGalleryBlock
 
     default:
-      return 'HorizontalCardBlock';
+      return HorizontalCardBlock
   }
 }

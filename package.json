@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "nuxt": "nuxt dev",
     "dev": "tinacms dev -c \"nuxt dev\"",
     "build": "tinacms build && nuxt build",
     "generate": "nuxt generate",
@@ -12,21 +13,19 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@nuxt/content": "^3.1.0",
-    "@nuxt/eslint": "^0.7.5",
-    "@nuxt/fonts": "^0.10.3",
+    "@nuxt/content": "^3.1.1",
     "@nuxt/image": "^1.9.0",
-    "@nuxtjs/tailwindcss": "^6.13.1",
-    "eslint": "^9.18.0",
-    "nuxt": "^3.15.2",
-    "tinacms": "^2.6.1",
+    "nuxt": "^3.15.4",
+    "tinacms": "^2.6.4",
     "vue": "latest",
     "vue-router": "latest"
   },
   "devDependencies": {
-    "@tinacms/cli": "^1.8.1",
+    "@nuxt/eslint": "^1.0.1",
+    "@tinacms/cli": "^1.8.4",
     "@types/markdown-it": "^14.1.2",
-    "@types/node": "^22.10.8",
+    "@types/node": "^22.13.4",
+    "eslint": "^9.20.1",
     "markdown-it": "^14.1.0",
     "typescript": "^5.7.3"
   }

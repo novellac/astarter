@@ -2,11 +2,11 @@
   <div>
     <hr v-if="block.dividerStyle === 'horizontalLine'" class="divider solid" >
 
-    <hr v-if="block.dividerStyle === 'dottedLine'" class="divider dotted" >
+    <div v-if="block.dividerStyle === 'dottedLine'" class="divider dotted" />
   </div>
 </template>
 
-<script lang="ts" setup>
+<script setup lang="ts">
 defineProps({
   block: {
     type: Object,
@@ -14,3 +14,27 @@ defineProps({
   },
 });
 </script>
+
+<style scoped>
+.divider {
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .divider {
+    max-width: 500px;
+  }
+}
+
+.solid {
+  border-color: var(--color-primary);
+  border-width: var(--border-size-base);
+}
+
+.dotted {
+  border-color: var(--color-primary);
+  border-style: dotted;
+  border-bottom-width: var(--border-size-md);
+  border-top-width: 0px;
+}
+</style>

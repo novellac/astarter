@@ -1,19 +1,15 @@
 {
-  "siteName": "Aster, A Starter Repo",
-  "footerText": "Hope you enjoyed Aster, a starter repo!\n",
-  "siteCopyright": "Some rights reserved. See the repo's license document for restrictions. Copyright",
+  "siteName": "Aster",
+  "footerText": "You're welcome to use Aster according to the terms specified in the [Hippocratic License HL3-FULL](https://firstdonoharm.dev/version/3/0/full.html).\n",
+  "siteCopyright": "Aster and Alto",
   "navItems": [
     {
-      "linkText": "Home",
-      "href": "/"
+      "linkText": "Nuxt",
+      "href": "https://nuxt.com/"
     },
     {
       "linkText": "About",
-      "href": "/about"
-    },
-    {
-      "linkText": "How to use",
-      "href": "/how"
+      "href": "about"
     }
   ]
 }

@@ -2,7 +2,7 @@
   <HorizontalCardBlock :block="block" :heading-level="1" />
 </template>
 
-<script lang="ts" setup>
+<script setup lang="ts">
 defineProps({
   block: {
     type: Object,

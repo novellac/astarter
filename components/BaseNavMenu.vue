@@ -19,7 +19,7 @@
             aria-label="Close navigation menu"
             @click="dialogRef?.close()"
           >
-            <img src="/assets/images/closeIcon.svg" alt="" >
+            <img class="dialogIcon" src="/assets/images/icons/xIcon.svg" alt="" >
           </button>
 
           <ul class="mobile-nav-links">
@@ -46,13 +46,13 @@
         aria-label="Open navigation menu"
         @click="dialogRef?.showModal()"
       >
-        <img src="/assets/images/hamburgerMenuIcon.svg" alt="" >
+        <img class="dialogIcon" src="/assets/images/icons/hamburgerMenuIcon.svg" alt="" >
       </button>
     </div>
   </nav>
 </template>
 
-<script lang="ts" setup>
+<script setup lang="ts">
 import { useRouter } from 'vue-router';
 
 interface NavItem {
@@ -130,7 +130,7 @@ nav {
 dialog {
   width: 100vw;
   height: 100vh;
-  background-color: var(--color-accent-dark);
+  background-color: var(--color-tertiary);
   border: none;
 }
 
@@ -165,7 +165,7 @@ dialog {
 
 .close-button:hover {
   border: var(--border-size-base) solid var(--color-primary);
-  color: var(--color-accent-dark);
+  color: var(--color-tertiary);
 }
 
 .close-button:active,
@@ -203,10 +203,4 @@ dialog {
 .nav-links--home:hover {
   text-decoration: underline;
 }
-
-/* TODO: Target active links and take into account the hash on the link  - we don't want the hash link to be highlighted when the URL doesn't actually contain a hash.*/
-/* .router-link-exact-active:not(.nav-links--home) {
-  color: var(--color-secondary);
-  border-bottom: 3px solid var(--color-primary);
-} */
 </style>

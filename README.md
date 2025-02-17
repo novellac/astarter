@@ -7,8 +7,6 @@
 - [Nuxt](https://nuxt.com/docs/getting-started/introduction). This sits on top of Vuejs so you get a lot of the same nice coding experience, but a bunch of under the hood benefits (the nuxt website can tell you about these).
 - [Nuxt ESLint](https://eslint.nuxt.com/packages/module). This will keep your code using a standard style as much as possible.
 - [Nuxt Image](https://image.nuxt.com/). This will help optimize images, which is good for artists and other visually-driven sites.
-- [Nuxt Tailwind](https://nuxt.com/modules/tailwindcss). This gives a giant set of utility classes. It's good for spinning up new things, but has drawbacks for bigger projects. Use thoughtfully and don't at me lol.
-- [Nuxt Fonts](https://fonts.nuxt.com/). Fonts with less fuss, hopefully. Basically it downloads fonts for you and stores them in a predetermined place so you are not making a bunch of calls.
 - [Tina CMS](https://tina.io/). This is a CMS that is git-based, so it will create markdown files we can use for our site's content.
 - [NuxtContent](https://content.nuxt.com/). This gives a bunch of helpers for automagically rendering from static folders and files.
 
@@ -35,6 +33,11 @@
 - Site vars to be added to Tina:
 -- BaseNavMenu - Home link
 -- BaseNavMenu - Mobile close button aria label
+- Maybe use [Nuxt Fonts](https://fonts.nuxt.com/). Fonts with less fuss, hopefully. Basically it downloads fonts for you and stores them in a predetermined place so you are not making a bunch of calls.
+- Figure out where the public/static assets should come from when used in app.vue
+- Wrangle the TS
+- Ensure that focus outlines contrast with the bg and are still overridable by OS configs.
+- Dark/Light modes
 
 ## Tips, tricks, and gotchas
 
