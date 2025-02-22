@@ -1,33 +1,57 @@
 @import './reset.css';
 
-/* @font-face {
-  font-family: 'YourCoolFont';
-  src: url('../fonts/yourCoolFont.ttc') format('truetype');
+@font-face {
+  font-family: 'Delius';
+  src: url('../fonts/Delius_Swash_Caps/DeliusSwashCaps-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'YourOtherFont';
-  src: url('../fonts/yourOtherFont.ttf') format('truetype');
+  font-family: 'FiraSans';
+  src: url('../fonts/Fira_Sans/FiraSans-Light.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-} */
+}
+
+@font-face {
+  font-family: 'FiraSans';
+  src: url('../fonts/Fira_Sans/FiraSans-LightItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FiraSans';
+  src: url('../fonts/Fira_Sans/FiraSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FiraSans';
+  src: url('../fonts/Fira_Sans/FiraSans-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
 
 :root {
   /* Custom palette */
   /* Light Purple */
   --color-primary: #d4c9f2;
-  /* White */
+  /* White */ 
   --color-secondary: #ffffff;
   /* Purple */
   --color-tertiary: #3a1646;
 
   /* Custom fonts */
-  --fontface-emphasized: 'AvenirNext';
-  --fontface-default: 'OpenSans';
+  --fontface-emphasized: 'Delius';
+  --fontface-default: 'FiraSans';
 
   /* Gap size rhythms */
   --gap-sm: 1.5rem;

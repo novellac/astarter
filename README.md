@@ -13,7 +13,6 @@
 ## How to use this repo
 
 1. Clone copy etc the repo
-1. Change out the fonts for your fonts in the `tailwind.config.js` file and wherever  your reference the font directly.
 
 ### Set up Tina.io
 
@@ -29,6 +28,12 @@
 1. On the deploy platform, add the env variables `NEXT_PUBLIC_TINA_CLIENT_ID`, `TINA_TOKEN`, and `TINA_INDEXER_TOKEN` you got from the Tina dashboard.
 1. Once your site has been built and deployed, copy the URL (usually something like `https://my-cool-site.vercel.app`) and add it in the Configuration tab of the Tina dashboard. This will ensure you can go to `/admin` on your site and be able to sign into Tina.
 1. To be able to use media (like pictures, videos, and files you upload), go to the Tina dashboard's Media tab. Follow the prompts (you should not need to change any of the values) to sync media.
+1. Serve locally and start to copy and customize!
+
+### Changing out fonts
+
+1. Download the fonts to the `styles/fonts` directory.
+1. In `main.css`, replace the `font-face` declarations and the CSS variables under the "Custom Fonts" section
 
 ## Roadmap/TODOs
 

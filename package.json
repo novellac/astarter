@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "nuxtdev": "nuxt dev",
     "build": "tinacms build && nuxt build",
     "dev": "tinacms dev -c \"nuxt dev\"",
     "generate": "nuxt generate",
