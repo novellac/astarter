@@ -1,12 +1,16 @@
 <!-- eslint-disable vue/no-v-html -->
 <template>
+  <a href="#main" class="skip-link">Skip to Main</a>
+
   <div class="body-wrapper">
     <header>
       <BaseNavMenu :nav-items="data?.meta.navItems" :site-name="data?.meta.siteName" />
     </header>
 
-    <NuxtRouteAnnouncer />
-    <NuxtPage :site-name="data?.meta.siteName" />
+    <main id="main" tabindex="-1">
+      <NuxtRouteAnnouncer />
+      <NuxtPage :site-name="data?.meta.siteName" />
+    </main>
 
     <footer>
       <div class="footer-text" v-html="md.render(data?.meta.footerText)"/>

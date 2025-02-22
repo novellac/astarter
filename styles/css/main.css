@@ -53,6 +53,16 @@
   --fontface-emphasized: 'Delius';
   --fontface-default: 'FiraSans';
 
+  /* Spacing rhythms */
+  --spacing-1px: 1px;
+  --spacing-2px: 2px;
+  --spacing-2xs: .25rem;
+  --spacing-xs: .5rem;
+  --spacing-sm: .75rem;
+  --spacing-base: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2.5rem;
+
   /* Gap size rhythms */
   --gap-sm: 1.5rem;
   --gap-base: 2.5rem;
@@ -95,13 +105,51 @@
 
 /* Utilities */
 .sr-only:not(:focus):not(:active) {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
   position: absolute;
-  white-space: nowrap;
   width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.not-sr-only {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+.skip-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.skip-link:focus {
+  position: static;
+  display: block;
+  width: fit-content;
+  height: auto;
+  padding: 10px;
+  margin: var(--spacing-base) auto;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+  transition: margin-top .25s;
 }
 
 /* Typography */
